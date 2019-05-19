@@ -15,7 +15,9 @@ func init() {
 }
 
 // main is the entry point for the program.
+// main是整个程序的入口
 func main() {
 	// Perform the search for the specified term.
+	// 使用特定的项做搜索
 	search.Run("president")
 }
